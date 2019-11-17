@@ -1,0 +1,243 @@
+body {
+    background-color: cornflowerblue;
+}
+
+@media (max-width: 1180px) {
+    .content {
+        margin: 101px 0px 0px 34% !important;
+        width: 305px !important;
+        height: auto !important;
+    }
+
+    .selected-block {
+        left: 28% !important;
+    }
+}
+
+.content {
+    margin: 101px 0px 0px 23%;
+    background-color: white;
+    width: 882px;
+    height: 299px;
+    padding: 10px 0 26px 17px;
+    border-radius: 7px;
+    box-shadow: 0 0 66px rgba(0, 0, 0, 0.7)
+}
+
+.content-device {
+    position: relative;
+    display: inline-table;
+    padding: 30px 0 0 0;
+    width: 285px;
+    left: 1px;
+}
+
+.device {
+    margin-left: 109px;
+    width: 70px;
+    height: 70px;
+}
+
+.img-device {
+    margin-left: 106px;
+    width: 70px;
+    height: 70px;
+}
+
+.device-title-mobile {
+    margin: 35px 0 0 3px;
+}
+
+.device-title-desktop {
+    margin: 36px 0 0 0px;
+
+}
+
+.device-title-tv {
+    margin: 36px 7px 0 0px;
+}
+
+.device-title-text {
+    text-align: center;
+    font-size: 17px;
+    font-family: Roboto;
+    letter-spacing: 5px;
+    font-stretch: ultra-condensed;
+    font-weight: 900;
+    color: cornflowerblue;
+}
+
+.device-about-mobile {
+    margin: 24px 0 0 51px;
+    width: 200px;
+}
+
+.device-about-desktop {
+    margin: 20px 0 0 34px;
+    width: 225px;
+}
+
+.device-about-tv {
+    margin: 20px 0 0 33px;
+    width: 227px;
+}
+
+.device-about-text {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    color: silver;
+    font-size: 14px;
+}
+
+.device-price {
+    margin: 17px 0 0 94px;
+    width: 140px;
+}
+
+.laptop-price {
+    margin: 22px 0 0 91px;
+    width: 140px;
+}
+
+.monitor-price {
+    margin: 22px 0 0 89px;
+    width: 140px;
+}
+
+.dollar {
+    display: inline-block;
+    font-family: Roboto;
+    position: relative;
+    top: -11px;
+    left: 5px;
+    font-weight: 500;
+    color: cornflowerblue;
+    font-size: 14px;
+}
+
+.cost {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    color: cornflowerblue;
+    font-size: 31px;
+}
+
+.month {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    color: cornflowerblue;
+    font-size: 14px;
+}
+
+.content-device:hover {
+    background-color: #fcebfa;
+    cursor: pointer;
+}
+
+.background-color-body {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.selected-block {
+    text-align: center;
+    position: absolute;
+    display: none;
+    top: 145px;
+    left: 34%;
+    background-color: white;
+    border-radius: 7px;
+    width: 450px;
+    height: 400px;
+}
+
+.selected-block .device {
+    margin: 70px 0 0 10px;
+}
+
+.selected-block .device-title-mobile {
+    margin: 24px 0 0 20px;
+}
+
+.selected-block .device-about-mobile {
+    margin: 24px 0 0 55px;
+    width: 353px;
+}
+
+.selected-block .device-price {
+    margin: 25px 0 0 152px;
+}
+
+.selected-block .img-device {
+    margin: 70px 0 0 10px;
+}
+
+.selected-block .device-title-desktop {
+    margin: 24px 0 0 20px;
+}
+
+.selected-block .device-about-desktop {
+    margin: 24px 0 0 55px;
+    width: 353px;
+}
+
+.selected-block .laptop-price {
+    margin: 25px 0 0 152px;
+}
+
+.selected-block .img-device {
+    margin: 70px 0 0 10px;
+}
+
+.selected-block .device-title-tv {
+    margin: 24px 0 0 20px;
+}
+
+.selected-block .device-about-tv {
+    margin: 24px 0 0 55px;
+    width: 353px;
+}
+
+.selected-block .monitor-price {
+    margin: 25px 0 0 152px;
+}
+
+.confirmation-text {
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.img-cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.play-button {
+    position: absolute;
+    left: 135px;
+    bottom: 30px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
